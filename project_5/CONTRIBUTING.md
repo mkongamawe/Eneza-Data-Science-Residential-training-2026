@@ -14,7 +14,7 @@ git remote main https://github.com/mkongamawe/Eneza-Data-Science-Residential-tra
 python -m venv .venv
 
 # Activate it (you must do this every time you open a new terminal)
-source .venv/bin/activate        # Linux/Mac
+c        # Linux/Mac
 ```
 
 ### Installing required packages
