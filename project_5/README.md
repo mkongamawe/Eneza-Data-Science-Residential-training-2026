@@ -480,11 +480,11 @@ This pathway allowed for us to utilise more data than path 1 while simultaneousl
 
 # 5. Results and conclusion
 The results of the model training performance is shown below:
-![training_comparisons](results/classifier_comparison_dumbbell_v3.png)
+![training_comparisons](plots/classifier_comparison_dumbbell_v3.png)
 Across both pathways, naive TF-IDF performed better than the other methods of feature representation. 
 
 The total results of the best performing model wich was a combination of TF-IDF and multinomial logistic regression is shown:
-![best_model_results](results/best_model_train_vs_test.png)
+![best_model_results](plots/best_model_train_vs_test.png)
 The best model had a Macro F1 score of 0.62
 
 An analysis of the feature distribution from the aforementioned best performing model: TF-IDF + Multinomial Logistic Regression on a PCA plot can be seen below:
